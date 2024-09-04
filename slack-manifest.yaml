@@ -1,0 +1,31 @@
+display_information:
+  name: Hatchet AI Assistant
+  description: An AI-powered assistant using Hatchet for workflow orchestration
+  background_color: "#4A154B"
+features:
+  bot_user:
+    display_name: Hatchet AI
+    always_online: true
+oauth_config:
+  scopes:
+    bot:
+      - app_mentions:read
+      - channels:history
+      - chat:write
+      - im:history
+      - im:write
+      - messages:read
+settings:
+  event_subscriptions:
+    request_url: https://<your-ngrok-id>.ngrok-free.app/slack/events
+    bot_events:
+      - message.channels
+      - message.im
+      - message.groups
+      - app_mention
+  interactivity:
+    is_enabled: true
+    request_url: https://<your-ngrok-id>.ngrok-free.app/slack/interactive
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false

@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "src"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+
+[tool.poetry.scripts]
+start-api = "src.api.main:start"
+start-worker = "src.workflows.main:start"
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.112.1"
+uvicorn = "^0.30.6"
+hatchet-sdk = "^0.35.1"
+pydantic = "^2.6.1"
+pydantic-settings = "^2.1.0"
+slack-sdk = "^3.31.0"
+openai = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
