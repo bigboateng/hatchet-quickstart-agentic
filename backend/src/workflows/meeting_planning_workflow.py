@@ -1,7 +1,7 @@
 from .hatchet import hatchet
 from hatchet_sdk import Context
 from .openai import create_completion
-from ..slack_client import slack_client
+from .slack_client import slack_client
 import logging
 
 logger = logging.getLogger(__name__)

@@ -1,6 +1,6 @@
 from slack_sdk.web.async_client import AsyncWebClient
 from slack_sdk.errors import SlackApiError
-from .config import settings
+from ..config import settings
 import logging
 
 logger = logging.getLogger(__name__)
