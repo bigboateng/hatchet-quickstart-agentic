@@ -84,7 +84,7 @@ If you prefer to start services individually:
 
 ## Usage
 
-Once the services are running, you can interact with the Slack bot in your Slack workspace. The bot will respond to specific events and generate responses using OpenAI.
+Once the services are running, you can interact with the Slack bot by sending messages in the channel you created which has the bot in it, and the bot will respond.
 
 ## Project Structure
 
