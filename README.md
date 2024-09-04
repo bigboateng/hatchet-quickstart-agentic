@@ -6,7 +6,6 @@ This project demonstrates a Slack bot application using FastAPI for the backend 
 ## Key Features
 
 - Multiple workflows: Separate workflows for handling different types of Slack events
-- Real-time updates: Utilizes streaming to get live workflow data
 - OpenAI integration: Generates responses using OpenAI's GPT-3.5 model
 - Slack integration: Communicates with Slack using the Slack SDK
 
